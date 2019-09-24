@@ -1,0 +1,44 @@
+/****************************TAG SELECTORS*************************************/
+
+h1 {
+  color: red;
+  font-size: 200px;
+}
+
+img:hover {
+  background-color: gold;
+  background: repeating-radial-gradient(gold, purple 50px);
+}
+
+body {
+  background-image: url(https://emojipedia-us.s3.amazonaws.com/thumbs/240/apple/118/bacon_1f953.png);
+  background-repeat: repeat;
+  animation: slidein 5s linear 5s infinite alternate;
+}
+
+p {
+  color: red;
+  word-spacing: 100px;
+}
+
+/****************************CLASS SELECTORS*************************************/
+
+.bacon {
+  background: repeating-radial-gradient(green, darkgreen 50px);
+  opacity: 1;
+}
+
+.broccoli {
+  background: repeating-radial-gradient(red, darkred 50px);
+  opacity: 1;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+/****************************ID SELECTORS*************************************/
+
+#heading {
+  color: blue;
+}
